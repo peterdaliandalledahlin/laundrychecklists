@@ -1,7 +1,7 @@
 {
-  "name": "vanilla-parcel-boilerplate",
+  "name": "laundry-checklists",
   "version": "1.0.0",
-  "description": "Simple workflow starter for building vanilla JS apps",
+  "description": "Laundry checklists",
   "main": "index.js",
   "scripts": {
     "dev": "npm run clean && parcel public/index.html --out-dir development -p 3000",
@@ -10,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bradtraversy/vanilla-parcel-boilerplate.git"
+    "url": "git+https://github.com/peterdaliandalledahlin/laundrychecklists.git"
   },
   "keywords": [
     "parcel"
   ],
-  "author": "Brad Traversy",
+  "author": "Peter Dahlin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bradtraversy/vanilla-parcel-boilerplate/issues"
+    "url": "https://github.com/peterdaliandalledahlin/laundrychecklists.git/issues"
   },
-  "homepage": "https://github.com/bradtraversy/vanilla-parcel-boilerplate#readme",
+  "homepage": "https://github.com/peterdaliandalledahlin/laundrychecklists.git#readme",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/plugin-transform-runtime": "^7.9.0",
