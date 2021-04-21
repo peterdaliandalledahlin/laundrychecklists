@@ -12,63 +12,47 @@ const Header = () => {
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="laundryLinks" role="button" data-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle text-dark" href="#" id="laundryLinks" role="button" data-toggle="dropdown" aria-expanded="false">
                 Välj tvättstuga
               </a>
               <ul class="dropdown-menu" aria-labelledby="laundryLinks">
-                <li><a class="dropdown-item stenfalk" href="#stenfalk2">Stenfalksgränd 2</a></li>
-                <li><a class="dropdown-item stenfalk" href="#stenfalk10">Stenfalksgränd 10</a></li>
-                <li><a class="dropdown-item stenfalk" href="#stenfalk14">Stenfalksgränd 14</a></li>
-                <li><a class="dropdown-item stenfalk" href="#stenfalk18">Stenfalksgränd 18</a></li>
-                <li><a class="dropdown-item stenfalk" href="#stenfalk1">Stenfalksgränd 1</a></li>
-                <div class="dropdown-divider"></div>
-                <!-- Level two dropdown-->
-            <li class="dropdown-submenu">
-              <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">Stenfalksgränd</a>
-              <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">Tornfalksgränd</a>
-              <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">Lärkfalksgränd</a>
-              <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">Bivråksgränd</a>
-              <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">Ormvråksgränd</a>
-              <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">Fiskgjusegränd</a>
-              <ul aria-labelledby="dropdownMenu2" class="dropdown-menu border-0 shadow">
-                <li>
-                  <a tabindex="-1" href="#" class="dropdown-item">2</a>
-                  <a tabindex="-1" href="#" class="dropdown-item">10</a>
-                  <a tabindex="-1" href="#" class="dropdown-item">14</a>
-                  <a tabindex="-1" href="#" class="dropdown-item">18</a>
-                  <a tabindex="-1" href="#" class="dropdown-item">1</a>
+              <li class="dropdown">
+              <a class="dropdown-toggle" href="#" id="navbarDropdown-lillsidan" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lillsidan</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown-lillsidan">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Stenfalksgränd</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a href="#">Stenfalksgränd 2</a></li>
+                      <li><a href="#">Stenfalksgränd 6</a></li>
+                      <li><a href="#">Stenfalksgränd 16</a></li>
+                      <li class="dropdown">
+                        <a class="dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown3</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class=""dropdown>
+                    <a class="dropdown-toggle" href="#" id="dropdown-tornfalksgrand" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tornfalksgränd</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown-tornfalksgrand">
+                      <li><a href="#tornfalk2">Tornfalksgränd 2</a></li>
+                      <li><a href="#tornfalk6">Tornfalksgränd 6</a></li>
+                      <li><a href="#tornfalk16">Tornfalksgränd 16</a></li>
+                      <li class="dropdown">
+                        <a class="dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown3</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
                 </li>
-                <li class="dropdown-submenu">
-                  <a id="dropdownMenu3" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">level 2</a>
-                  <ul aria-labelledby="dropdownMenu3" class="dropdown-menu border-0 shadow">
-                    <li><a href="#" class="dropdown-item">3rd level</a></li>
-                    <li><a href="#" class="dropdown-item">3rd level</a></li>
-                  </ul>
-                </li> 
-                <div class="dropdown-divider"></div>
-                <li><a class="dropdown-item tornfalk" href="#tornfalk2">Tornfalksgränd 2</a></li>
-                <li><a class="dropdown-item tornfalk" href="#tornfalk6">Tornfalksgränd 6</a></li>
-                <li><a class="dropdown-item tornfalk" href="#tornfalk16">Tornfalksgränd 16</a></li>
-                <li><a class="dropdown-item tornfalk" href="#tornfalk7">Tornfalksgränd 7</a></li>
-                <li><a class="dropdown-item tornfalk" href="#tornfalk5">Tornfalksgränd 5</a></li>
-                <div class="dropdown-divider"></div>
-                <li><a class="dropdown-item larkfalk" href="#larkfalk2">Lärkfalksgränd 2</a></li>
-                <li><a class="dropdown-item larkfalk" href="#larkfalk13">Lärkfalksgränd 13</a></li>
-                <li><a class="dropdown-item larkfalk" href="#larkfalk11">Lärkfalksgränd 11</a></li>
-                <li><a class="dropdown-item larkfalk" href="#larkfalk5">Lärkfalksgränd 5</a></li>
-                <div class="dropdown-divider"></div>
-                <li><a class="dropdown-item bivrak" href="#bivrak5">Bivråkssgränd 5</a></li>
-                <li><a class="dropdown-item bivrak" href="#bivrak9:1">Bivråksgränd 9:1</a></li>
-                <li><a class="dropdown-item bivrak" href="#bivrak9:2">Bivråksgränd 9:2</a></li>
-                <div class="dropdown-divider"></div>
-                <li><a class="dropdown-item ormvrak" href="#ormvrak6">Ormvråkssgränd 6</a></li>
-                <li><a class="dropdown-item ormvrak" href="#ormvrak8">Ormvråksgränd 8</a></li>
-                <li><a class="dropdown-item ormvrak" href="#ormvrak1">Ormvråksgränd 1</a></li>
-                <div class="dropdown-divider"></div>
-                <li><a class="dropdown-item fiskgjuse" href="#fiskgjuse8">Fiskgjuseggränd 8</a></li>
-                <li><a class="dropdown-item fiskgjuse" href="#fiskgjuse6">Fiskgjusegränd 6</a></li>
-                <li><a class="dropdown-item fiskgjuse" href="#fiskgjuse11">Fiskgjusegränd 11</a></li>
-                <li><a class="dropdown-item fiskgjuse" href="#fiskgjuse3">Fiskgjusegränd 3</a></li>
+              </ul>
+          </li>
               </ul>
             </li>
           </ul>
