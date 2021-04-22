@@ -34,6 +34,8 @@ import Korsangen73 from './components/laundryrooms/Korsangen73';
 import AlertKorsangen73 from './components/alerts/AlertKorsangen73';
 import Korsangen75 from './components/laundryrooms/Korsangen75';
 import AlertKorsangen75 from './components/alerts/AlertKorsangen75';
+import KorsangenHeavyLaundry from './components/laundryrooms/KorsangenHeavyLaundry';
+import AlertKorsangenHeavyLaundry from './components/alerts/AlertKorsangenHeavyLaundry';
 
 async function App() {
   const template = document.createElement('template')
@@ -67,6 +69,8 @@ async function App() {
       ${AlertKorsangen73()}
       ${Korsangen75()}
       ${AlertKorsangen75()}
+      ${KorsangenHeavyLaundry()}
+      ${AlertKorsangenHeavyLaundry()}
     </div>
   `
   // Return a new node from template
