@@ -1,3 +1,4 @@
+import laundryKey from '../../assets/images/key.png'
 import diskborste from '../../assets/images/diskborste.jpg'
 import disktrasa from '../../assets/images/disktrasa.png'
 import vaskskrapa from '../../assets/images/vaskskrapa.webp'
@@ -13,8 +14,21 @@ import proppskap from '../../assets/images/proppskap.webp'
 
 const Tornfalksgrand7 = () => {
 	const template = `
-    <div id="tornfalksgrand7_wrapper">
-    <h1 class="display-5">Tornfalksgränd 7</h1>
+    <div class="card mb-3 shadow text-center tornfalksgrand7_booked_wrapper">
+            <div class="row g-0">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Tornfalksgränd 7 upptagen</h5>
+                        <div class="form-check form-check-inline">
+                            <input name="tornfalksgrand7_booked" class="form-check-input tornfalksgrand7" type="checkbox" id="tornfalksgrand7_booked" value="tornfalksgrand7_booked">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tornfalksgrand7_wrapper">
+        <h1 class="display-5">Tornfalksgränd 7</h1>
+        <div class="key_wrapper mb-2"><img src="${laundryKey}" alt="nyckel" /> <span>nr. 1</span></div>
         <form name="tornfalk7" id="tornfalk7">
             <div class="card mb-3 shadow text-center">
                 <div class="row g-0">

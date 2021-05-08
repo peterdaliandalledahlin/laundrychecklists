@@ -1,3 +1,4 @@
+import laundryKey from '../../assets/images/key.png'
 import diskborste from '../../assets/images/diskborste.jpg'
 import disktrasa from '../../assets/images/disktrasa.png'
 import vaskskrapa from '../../assets/images/vaskskrapa.webp'
@@ -12,21 +13,22 @@ import lysror from '../../assets/images/lysror.jpg'
 import proppskap from '../../assets/images/proppskap.webp'
 
 const Tornfalksgrand2 = () => {
-	const template = `
-    <div id="tornfalksgrand2_wrapper">
-        <h1 class="display-5">Tornfalksgränd 2</h1>
-        <div class="card mb-3 shadow text-center">
+	const template = `       
+        <div class="card mb-3 shadow text-center tornfalksgrand2_booked_wrapper">
             <div class="row g-0">
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">Tvättstugan upptagen</h5>
+                        <h5 class="card-title">Tornfalksgränd 2 upptagen</h5>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="tornfalksgrand2_booked" value="tornfalksgrand2_booked">
+                            <input name="tornfalksgrand2_booked" class="form-check-input tornfalksgrand2" type="checkbox" id="tornfalksgrand2_booked" value="tornfalksgrand2_booked">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div id="tornfalksgrand2_wrapper">
+        <h1 class="display-5">Tornfalksgränd 2</h1>
+        <div class="key_wrapper mb-2"><img src="${laundryKey}" alt="nyckel" /> <span>nr. 1</span></div>
         <form name="tornfalk2" id="tornfalk2">
             <div class="card mb-3 shadow text-center">
                 <div class="row g-0">
@@ -39,12 +41,6 @@ const Tornfalksgrand2 = () => {
                             <div class="form-check form-check-inline">
                                 <input name="tornfalksgrand2_diskborste" class="form-check-input tornfalksgrand2" type="checkbox" id="tornfalksgrand2_diskborste_finns" value="tornfalk_2_diskborste_finns">
                                 <label class="form-check-label" for="tornfalksgrand_2_diskborste_finns">CHECK</label>
-                            <!---
-                                <label class="check-container">Check
-                                    <input name="tornfalksgrand2_diskborste" type="checkbox" id="tornfalksgrand2_diskborste_finns" value="tornfalk_2_diskborste_finns">
-                                    <span class="checkmark"></span>
-                                </label>
-                            --->
                             </div>
                         </div>
                     </div>

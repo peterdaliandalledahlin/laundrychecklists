@@ -1,6 +1,6 @@
 const Summary = () => {
 	const template = ` 
-    <div class="card shadow" style="margin-top:120px;">
+    <div class="card shadow" style="margin:120px 0 30px 0;">
       <div class="card-header bg-info">
         Sammanställning
       </div>

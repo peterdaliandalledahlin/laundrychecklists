@@ -71,6 +71,16 @@ input[type='radio'] {
     width: 30px;
     height: 30px;
 }
+.key_wrapper {
+	text-align: center;
+}
+
+.key_wrapper img {
+	width: 70px;
+}
+.key_wrapper span {
+	font-size: 1.5em;
+}
 
 .card {
 	max-width: 540px;

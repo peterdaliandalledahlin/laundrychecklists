@@ -1,3 +1,4 @@
+import laundryKey from '../../assets/images/key.png'
 import diskborste from '../../assets/images/diskborste.jpg'
 import disktrasa from '../../assets/images/disktrasa.png'
 import vaskskrapa from '../../assets/images/vaskskrapa.webp'
@@ -13,20 +14,21 @@ import proppskap from '../../assets/images/proppskap.webp'
 
 const Stenfalksgrand18 = () => {
 	const template = `
-    <div id="stenfalksgrand18_wrapper">
-        <h1 class="display-5">Stenfalksgränd 14</h1>
-        <div class="card mb-3 shadow text-center">
+        <div class="card mb-3 shadow text-center stenfalksgrand18_booked_wrapper">
             <div class="row g-0">
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">Tvättstugan upptagen</h5>
+                        <h5 class="card-title">Stenfalksgränd 18 upptagen</h5>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="stenfalksgrand18_booked" value="stenfalksgrand18_booked">
+                            <input name="stenfalksgrand18_booked" class="form-check-input stenfalksgrand18" type="checkbox" id="stenfalksgrand18_booked" value="stenfalksgrand18_booked">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div id="stenfalksgrand18_wrapper">
+        <h1 class="display-5">Stenfalksgränd 18</h1>
+        <div class="key_wrapper mb-2"><img src="${laundryKey}" alt="nyckel" /> <span>nr. 1</span></div>
         <form name="stenfalk18" id="stenfalk18">
             <div class="card mb-3 shadow text-center">
                 <div class="row g-0">
