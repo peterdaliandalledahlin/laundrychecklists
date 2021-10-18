@@ -2,6 +2,7 @@ import laundryKey from '../../assets/images/key.png'
 import diskborste from '../../assets/images/diskborste.jpg'
 import disktrasa from '../../assets/images/disktrasa.png'
 import vaskskrapa from '../../assets/images/vaskskrapa.webp'
+import luddborste from '../../assets/images/luddborste.jpg'
 import moppgarn from '../../assets/images/moppgarn.jpg'
 import moppskaft from '../../assets/images/moppskaft.jpg'
 import mopphink from '../../assets/images/mopphink.jpg'
@@ -95,6 +96,26 @@ const Stenfalksgrand14 = () => {
                             <div class="form-check form-check-inline">
                                 <input name="stenfalksgrand14_alloren" class="form-check-input stenfalksgrand14" type="checkbox" id="stenfalksgrand14_alloren_finns" value="stenfalksgrand14_alloren_finns">
                                 <label class="form-check-label" for="stenfalksgrand14_alloren_finns">CHECK</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 shadow text-center">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="${luddborste}" alt="luddborste">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Luddborste</h5>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input stenfalksgrand14" type="radio" name="stenfalksgrand14_luddborste" id="stenfalksgrand14_luddborste_finns" value="stenfalksgrand14_luddborste_finns">
+                                <label class="form-check-label" for="stenfalksgrand14_luddborste_finns">FINNS</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input stenfalksgrand14" type="radio" name="stenfalksgrand14_luddborste" id="stenfalksgrand14_luddborste_fattas" value="stenfalksgrand14_luddborste_fattas">
+                                <label class="form-check-label" for="stenfalksgrand14_luddborste_fattas">FATTAS</label>
                             </div>
                         </div>
                     </div>

@@ -2,6 +2,7 @@ import laundryKey from '../../assets/images/key.png'
 import diskborste from '../../assets/images/diskborste.jpg'
 import disktrasa from '../../assets/images/disktrasa.png'
 import vaskskrapa from '../../assets/images/vaskskrapa.webp'
+import luddborste from '../../assets/images/luddborste.jpg'
 import moppgarn from '../../assets/images/moppgarn.jpg'
 import moppskaft from '../../assets/images/moppskaft.jpg'
 import mopphink from '../../assets/images/mopphink.jpg'
@@ -20,7 +21,7 @@ const Tornfalksgrand16 = () => {
                     <div class="card-body">
                         <h5 class="card-title">Tornfalksgränd 16 upptagen</h5>
                         <div class="form-check form-check-inline">
-                            <input name="tornfalksgrand16_booked" class="form-check-input tornfalksgrand16" type="checkbox" id="tornfalksgrand16_booked" value="tornfalksgrand16_booked">
+                            <input name="booked_tornfalksgrand16" class="form-check-input" type="checkbox" id="tornfalksgrand16_booked" value="tornfalksgrand16_booked">
                         </div>
                     </div>
                 </div>
@@ -89,6 +90,26 @@ const Tornfalksgrand16 = () => {
                             <div class="form-check form-check-inline">
                                 <input name="tornfalksgrand16_alloren" class="form-check-input tornfalksgrand16" type="checkbox" id="tornfalk_16_alloren_finns" value="tornfalk_16_alloren_finns">
                                 <label class="form-check-label" for="tornfalk_16_alloren_finns">CHECK</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 shadow text-center">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="${luddborste}" alt="luddborste">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Luddborste</h5>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input tornfalksgrand16" type="radio" name="tornfalksgrand16_luddborste" id="tornfalksgrand16_luddborste_finns" value="tornfalk_16_luddborste_finns">
+                                <label class="form-check-label" for="tornfalksgrand16_luddborste_finns">FINNS</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input tornfalksgrand16" type="radio" name="tornfalksgrand16_luddborste" id="tornfalksgrand16_luddborste_fattas" value="tornfalk_16_luddborste_fattas">
+                                <label class="form-check-label" for="tornfalksgrand16_luddborste_fattas">FATTAS</label>
                             </div>
                         </div>
                     </div>

@@ -2,6 +2,7 @@ import laundryKey from '../../assets/images/key.png'
 import diskborste from '../../assets/images/diskborste.jpg'
 import disktrasa from '../../assets/images/disktrasa.png'
 import vaskskrapa from '../../assets/images/vaskskrapa.webp'
+import luddborste from '../../assets/images/luddborste.jpg'
 import moppgarn from '../../assets/images/moppgarn.jpg'
 import moppskaft from '../../assets/images/moppskaft.jpg'
 import mopphink from '../../assets/images/mopphink.jpg'
@@ -40,13 +41,7 @@ const Stenfalksgrand10 = () => {
                             <h5 class="card-title">Diskborste</h5>
                             <div class="form-check form-check-inline">
                                 <input name="stenfalksgrand10_diskborste" class="form-check-input stenfalksgrand10" type="checkbox" id="stenfalksgrand10_diskborste_finns" value="stenfalksgrand10_diskborste_finns">
-                                <label class="form-check-label" for="tornfalksgrand_2_diskborste_finns">CHECK</label>
-                            <!---
-                                <label class="check-container">Check
-                                    <input name="stenfalksgrand10_diskborste" type="checkbox" id="stenfalksgrand10_diskborste_finns" value="stenfalksgrand10_diskborste_finns">
-                                    <span class="checkmark"></span>
-                                </label>
-                            --->
+                                <label class="form-check-label" for="stenfalksgrand10_diskborste_finns">CHECK</label>
                             </div>
                         </div>
                     </div>
@@ -95,6 +90,26 @@ const Stenfalksgrand10 = () => {
                             <div class="form-check form-check-inline">
                                 <input name="stenfalksgrand10_alloren" class="form-check-input stenfalksgrand10" type="checkbox" id="stenfalksgrand10_alloren_finns" value="stenfalksgrand10_alloren_finns">
                                 <label class="form-check-label" for="stenfalksgrand10_alloren_finns">CHECK</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 shadow text-center">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="${luddborste}" alt="luddborste">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Luddborste</h5>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input stenfalksgrand10" type="radio" name="stenfalksgrand10_luddborste" id="stenfalksgrand10_luddborste_finns" value="stenfalksgrand10_luddborste_finns">
+                                <label class="form-check-label" for="stenfalksgrand10_luddborste_finns">FINNS</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input stenfalksgrand10" type="radio" name="stenfalksgrand10_luddborste" id="stenfalksgrand10_luddborste_fattas" value="stenfalksgrand10_luddborste_fattas">
+                                <label class="form-check-label" for="stenfalksgrand10_luddborste_fattas">FATTAS</label>
                             </div>
                         </div>
                     </div>
